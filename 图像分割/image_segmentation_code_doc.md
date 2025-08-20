@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 dataset, info = tfds.load(
     'oxford_iiit_pet:4.*.*',
     with_info=True,
-    data_dir='./my_tfds_cache'
+    data_dir='../data/my_tfds_cache'
 )
 ```
 

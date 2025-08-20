@@ -60,7 +60,7 @@ probability_model = tf.keras.Sequential([model,
 probability_model.save("my_model.keras")
 print("模型保存成功")
 # 加载
-new_model = tf.keras.models.load_model("my_model.keras")
+new_model = tf.keras.models.load_model("../result/model/my_model.keras")
 probability_model = new_model
 predictions = probability_model.predict(test_images)
 

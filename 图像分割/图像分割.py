@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 dataset, info = tfds.load(
     'oxford_iiit_pet:4.*.*',
     with_info=True,
-    data_dir='./my_tfds_cache'  # 指定你希望保存数据集的路径
+    data_dir='../data/my_tfds_cache'  # 指定你希望保存数据集的路径
 )
 
 def normalize(input_image, input_mask):
